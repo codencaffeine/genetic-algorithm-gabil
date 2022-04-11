@@ -1,0 +1,13 @@
+Generation: 100 | Best Fitness: 0.9 | Running Fitness: 0.9
+Best Hypothesis:  ['00001111110000010010000100100100000001010101', '01111111110001110011010111100111010111010110', '00000111000000010010000010100001000001000100', '10101111010000010010000100100001010011000101', '00100111110000010010000010100100001011010110']
+Learned Rule 1
+4.4 < sepal_length <= 7.9 AND 2.0 < sepal_width <= 3.9 AND 1.4 < petal_length <= 6.4 AND 0.1 < petal_width <= 2.5 THEN target = Iris-versicolor
+Learned Rule 2
+6.0 < sepal_length <= 7.9 AND 2.4 < sepal_width <= 4.0 AND 4.9 < petal_length <= 6.9 AND 1.5 < petal_width <= 2.5 THEN target = Iris-virginica
+Learned Rule 3
+4.3 < sepal_length <= 7.4 AND 2.0 < sepal_width <= 3.9 AND 1.2 < petal_length <= 6.0 AND 0.1 < petal_width <= 2.1 THEN target = Iris-setosa
+Learned Rule 4
+6.7 < sepal_length <= 7.6 AND 2.0 < sepal_width <= 3.9 AND 1.4 < petal_length <= 6.0 AND 1.3 < petal_width <= 2.1 THEN target = Iris-versicolor
+Learned Rule 5
+4.9 < sepal_length <= 7.9 AND 2.0 < sepal_width <= 3.9 AND 1.2 < petal_length <= 6.4 AND 0.6 < petal_width <= 2.5 THEN target = Iris-virginica
+Train Accuracy: 0.9 | Test Accuracy: 0.94

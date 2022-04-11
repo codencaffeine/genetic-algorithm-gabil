@@ -1,0 +1,185 @@
+❯ python3 testIris.py                                             ─╯
+Unique values in each attr:  [32, 21, 40, 22]
+# of bits needed for each attr:  [5, 5, 6, 5]
+################## Print Start ##################
+Attributes: ('sepal_length', 'sepal_width', 'petal_length', 'petal_width')
+Target: Iris
+Classes: ['Iris-setosa' 'Iris-versicolor' 'Iris-virginica']
+Data size: 100
+Attribute Values {'sepal_length': array([43, 44, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61,
+       62, 63, 64, 65, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 79],
+      dtype=int32), 'sepal_width': array([20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,
+       38, 39, 40, 41], dtype=int32), 'petal_length': array([10, 11, 12, 13, 14, 15, 16, 17, 19, 30, 33, 35, 37, 38, 39, 40, 41,
+       42, 43, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60,
+       61, 63, 64, 66, 67, 69], dtype=int32), 'petal_width': array([ 1,  2,  3,  4,  5,  6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+       21, 22, 23, 24, 25], dtype=int32)}
+Individual Length: 44
+Target encoding:  {'00': 'Iris-setosa', '01': 'Iris-versicolor', '10': 'Iris-virginica'}
+################## Print End ##################
+
+Generation: 0 | Best Fitness: 0.16 | Running Fitness: 0.16 | Train Accuracy: 0.4 | Test Accuracy: 0.52
+Generation: 1 | Best Fitness: 0.185 | Running Fitness: 0.185 | Train Accuracy: 0.43 | Test Accuracy: 0.54
+Generation: 2 | Best Fitness: 0.194 | Running Fitness: 0.194 | Train Accuracy: 0.44 | Test Accuracy: 0.56
+Generation: 3 | Best Fitness: 0.202 | Running Fitness: 0.202 | Train Accuracy: 0.45 | Test Accuracy: 0.48
+Generation: 4 | Best Fitness: 0.25 | Running Fitness: 0.25 | Train Accuracy: 0.5 | Test Accuracy: 0.64
+Generation: 5 | Best Fitness: 0.26 | Running Fitness: 0.26 | Train Accuracy: 0.51 | Test Accuracy: 0.58
+Generation: 6 | Best Fitness: 0.26 | Running Fitness: 0.25 | Train Accuracy: 0.51 | Test Accuracy: 0.58
+Generation: 7 | Best Fitness: 0.281 | Running Fitness: 0.281 | Train Accuracy: 0.53 | Test Accuracy: 0.64
+Generation: 8 | Best Fitness: 0.292 | Running Fitness: 0.292 | Train Accuracy: 0.54 | Test Accuracy: 0.62
+Generation: 9 | Best Fitness: 0.303 | Running Fitness: 0.303 | Train Accuracy: 0.55 | Test Accuracy: 0.6
+Generation: 10 | Best Fitness: 0.303 | Running Fitness: 0.303 | Train Accuracy: 0.55 | Test Accuracy: 0.6
+Generation: 11 | Best Fitness: 0.303 | Running Fitness: 0.303 | Train Accuracy: 0.55 | Test Accuracy: 0.6
+Generation: 12 | Best Fitness: 0.325 | Running Fitness: 0.325 | Train Accuracy: 0.57 | Test Accuracy: 0.64
+Generation: 13 | Best Fitness: 0.336 | Running Fitness: 0.336 | Train Accuracy: 0.58 | Test Accuracy: 0.66
+Generation: 14 | Best Fitness: 0.336 | Running Fitness: 0.336 | Train Accuracy: 0.58 | Test Accuracy: 0.66
+Generation: 15 | Best Fitness: 0.372 | Running Fitness: 0.372 | Train Accuracy: 0.61 | Test Accuracy: 0.6
+Generation: 16 | Best Fitness: 0.49 | Running Fitness: 0.49 | Train Accuracy: 0.7 | Test Accuracy: 0.74
+Generation: 17 | Best Fitness: 0.49 | Running Fitness: 0.49 | Train Accuracy: 0.7 | Test Accuracy: 0.74
+Generation: 18 | Best Fitness: 0.49 | Running Fitness: 0.49 | Train Accuracy: 0.7 | Test Accuracy: 0.74
+Generation: 19 | Best Fitness: 0.49 | Running Fitness: 0.462 | Train Accuracy: 0.7 | Test Accuracy: 0.74
+Generation: 20 | Best Fitness: 0.518 | Running Fitness: 0.518 | Train Accuracy: 0.72 | Test Accuracy: 0.78
+Generation: 21 | Best Fitness: 0.518 | Running Fitness: 0.36 | Train Accuracy: 0.72 | Test Accuracy: 0.78
+Generation: 22 | Best Fitness: 0.518 | Running Fitness: 0.372 | Train Accuracy: 0.72 | Test Accuracy: 0.78
+Generation: 23 | Best Fitness: 0.518 | Running Fitness: 0.372 | Train Accuracy: 0.72 | Test Accuracy: 0.78
+Generation: 24 | Best Fitness: 0.518 | Running Fitness: 0.372 | Train Accuracy: 0.72 | Test Accuracy: 0.78
+Generation: 25 | Best Fitness: 0.518 | Running Fitness: 0.372 | Train Accuracy: 0.72 | Test Accuracy: 0.78
+Generation: 26 | Best Fitness: 0.518 | Running Fitness: 0.436 | Train Accuracy: 0.72 | Test Accuracy: 0.78
+Generation: 27 | Best Fitness: 0.518 | Running Fitness: 0.504 | Train Accuracy: 0.72 | Test Accuracy: 0.78
+Generation: 28 | Best Fitness: 0.562 | Running Fitness: 0.562 | Train Accuracy: 0.75 | Test Accuracy: 0.78
+Generation: 29 | Best Fitness: 0.578 | Running Fitness: 0.578 | Train Accuracy: 0.76 | Test Accuracy: 0.78
+Generation: 30 | Best Fitness: 0.578 | Running Fitness: 0.562 | Train Accuracy: 0.76 | Test Accuracy: 0.78
+Generation: 31 | Best Fitness: 0.578 | Running Fitness: 0.562 | Train Accuracy: 0.76 | Test Accuracy: 0.78
+Generation: 32 | Best Fitness: 0.578 | Running Fitness: 0.562 | Train Accuracy: 0.76 | Test Accuracy: 0.78
+Generation: 33 | Best Fitness: 0.578 | Running Fitness: 0.578 | Train Accuracy: 0.76 | Test Accuracy: 0.78
+Generation: 34 | Best Fitness: 0.608 | Running Fitness: 0.608 | Train Accuracy: 0.78 | Test Accuracy: 0.82
+Generation: 35 | Best Fitness: 0.608 | Running Fitness: 0.578 | Train Accuracy: 0.78 | Test Accuracy: 0.82
+Generation: 36 | Best Fitness: 0.624 | Running Fitness: 0.624 | Train Accuracy: 0.79 | Test Accuracy: 0.82
+Generation: 37 | Best Fitness: 0.624 | Running Fitness: 0.624 | Train Accuracy: 0.79 | Test Accuracy: 0.82
+Generation: 38 | Best Fitness: 0.624 | Running Fitness: 0.608 | Train Accuracy: 0.79 | Test Accuracy: 0.82
+Generation: 39 | Best Fitness: 0.624 | Running Fitness: 0.593 | Train Accuracy: 0.79 | Test Accuracy: 0.82
+Generation: 40 | Best Fitness: 0.624 | Running Fitness: 0.624 | Train Accuracy: 0.79 | Test Accuracy: 0.82
+Generation: 41 | Best Fitness: 0.672 | Running Fitness: 0.672 | Train Accuracy: 0.82 | Test Accuracy: 0.84
+Generation: 42 | Best Fitness: 0.706 | Running Fitness: 0.706 | Train Accuracy: 0.84 | Test Accuracy: 0.78
+Generation: 43 | Best Fitness: 0.706 | Running Fitness: 0.706 | Train Accuracy: 0.84 | Test Accuracy: 0.78
+Generation: 44 | Best Fitness: 0.706 | Running Fitness: 0.706 | Train Accuracy: 0.84 | Test Accuracy: 0.78
+Generation: 45 | Best Fitness: 0.757 | Running Fitness: 0.757 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 46 | Best Fitness: 0.757 | Running Fitness: 0.757 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 47 | Best Fitness: 0.757 | Running Fitness: 0.757 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 48 | Best Fitness: 0.757 | Running Fitness: 0.757 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 49 | Best Fitness: 0.757 | Running Fitness: 0.74 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 50 | Best Fitness: 0.757 | Running Fitness: 0.757 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 51 | Best Fitness: 0.757 | Running Fitness: 0.757 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 52 | Best Fitness: 0.757 | Running Fitness: 0.74 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 53 | Best Fitness: 0.757 | Running Fitness: 0.74 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 54 | Best Fitness: 0.757 | Running Fitness: 0.74 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 55 | Best Fitness: 0.757 | Running Fitness: 0.757 | Train Accuracy: 0.87 | Test Accuracy: 0.94
+Generation: 56 | Best Fitness: 0.774 | Running Fitness: 0.774 | Train Accuracy: 0.88 | Test Accuracy: 0.92
+Generation: 57 | Best Fitness: 0.774 | Running Fitness: 0.757 | Train Accuracy: 0.88 | Test Accuracy: 0.92
+Generation: 58 | Best Fitness: 0.774 | Running Fitness: 0.757 | Train Accuracy: 0.88 | Test Accuracy: 0.92
+Generation: 59 | Best Fitness: 0.792 | Running Fitness: 0.792 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 60 | Best Fitness: 0.792 | Running Fitness: 0.792 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 61 | Best Fitness: 0.792 | Running Fitness: 0.74 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 62 | Best Fitness: 0.792 | Running Fitness: 0.74 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 63 | Best Fitness: 0.792 | Running Fitness: 0.757 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 64 | Best Fitness: 0.792 | Running Fitness: 0.757 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 65 | Best Fitness: 0.792 | Running Fitness: 0.757 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 66 | Best Fitness: 0.792 | Running Fitness: 0.757 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 67 | Best Fitness: 0.792 | Running Fitness: 0.792 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 68 | Best Fitness: 0.792 | Running Fitness: 0.774 | Train Accuracy: 0.89 | Test Accuracy: 0.92
+Generation: 69 | Best Fitness: 0.81 | Running Fitness: 0.81 | Train Accuracy: 0.9 | Test Accuracy: 0.94
+Generation: 70 | Best Fitness: 0.81 | Running Fitness: 0.81 | Train Accuracy: 0.9 | Test Accuracy: 0.94
+Generation: 71 | Best Fitness: 0.81 | Running Fitness: 0.81 | Train Accuracy: 0.9 | Test Accuracy: 0.94
+Generation: 72 | Best Fitness: 0.81 | Running Fitness: 0.81 | Train Accuracy: 0.9 | Test Accuracy: 0.94
+Generation: 73 | Best Fitness: 0.81 | Running Fitness: 0.81 | Train Accuracy: 0.9 | Test Accuracy: 0.94
+Generation: 74 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 75 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 76 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 77 | Best Fitness: 0.828 | Running Fitness: 0.81 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 78 | Best Fitness: 0.828 | Running Fitness: 0.81 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 79 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 80 | Best Fitness: 0.828 | Running Fitness: 0.792 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 81 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 82 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 83 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 84 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 85 | Best Fitness: 0.828 | Running Fitness: 0.81 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 86 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 87 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 88 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 89 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 90 | Best Fitness: 0.828 | Running Fitness: 0.792 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 91 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 92 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 93 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 94 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 95 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 96 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 97 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 98 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 99 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 100 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 101 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 102 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 103 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 104 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 105 | Best Fitness: 0.828 | Running Fitness: 0.828 | Train Accuracy: 0.91 | Test Accuracy: 0.94
+Generation: 106 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 107 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 108 | Best Fitness: 0.846 | Running Fitness: 0.828 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 109 | Best Fitness: 0.846 | Running Fitness: 0.828 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 110 | Best Fitness: 0.846 | Running Fitness: 0.828 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 111 | Best Fitness: 0.846 | Running Fitness: 0.828 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 112 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 113 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 114 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 115 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 116 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 117 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 118 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 119 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 120 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 121 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 122 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 123 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 124 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 125 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 126 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 127 | Best Fitness: 0.846 | Running Fitness: 0.846 | Train Accuracy: 0.92 | Test Accuracy: 0.94
+Generation: 128 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 129 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 130 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 131 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 132 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 133 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 134 | Best Fitness: 0.865 | Running Fitness: 0.846 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 135 | Best Fitness: 0.865 | Running Fitness: 0.846 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 136 | Best Fitness: 0.865 | Running Fitness: 0.846 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 137 | Best Fitness: 0.865 | Running Fitness: 0.846 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 138 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 139 | Best Fitness: 0.865 | Running Fitness: 0.846 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 140 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 141 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 142 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 143 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 144 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 145 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 146 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 147 | Best Fitness: 0.865 | Running Fitness: 0.865 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 148 | Best Fitness: 0.865 | Running Fitness: 0.846 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Generation: 149 | Best Fitness: 0.865 | Running Fitness: 0.846 | Train Accuracy: 0.93 | Test Accuracy: 0.92
+Total time: 1219.1677961349487 seconds
+
+##############################
+
+Best Hypothesis contains following 5 disjuntive rules:
+Learned Rule 1
+If ( 4.3 < sepal_length <= 6.7 ) AND ( 2.3 < sepal_width <= 4.0 ) AND ( 1.0 < petal_length <= 6.3 ) AND ( 0.1 < petal_width <= 2.5 )  THEN target = Iris-setosa
+Learned Rule 2
+If ( 4.8 < sepal_length <= 7.9 ) AND ( 2.0 < sepal_width <= 3.8 ) AND ( 1.2 < petal_length <= 6.9 ) AND ( 1.0 < petal_width <= 2.5 )  THEN target = Iris-virginica
+Learned Rule 3
+If ( 4.3 < sepal_length <= 7.1 ) AND ( 2.0 < sepal_width <= 3.9 ) AND ( 1.3 < petal_length <= 6.3 ) AND ( 0.3 < petal_width <= 2.5 )  THEN target = Iris-versicolor
+Learned Rule 4
+If ( 4.6 < sepal_length <= 6.4 ) AND ( 2.0 < sepal_width <= 3.7 ) AND ( 1.2 < petal_length <= 6.7 ) AND ( 1.0 < petal_width <= 2.5 )  THEN target = Iris-virginica
+Learned Rule 5
+If ( 4.3 < sepal_length <= 7.6 ) AND ( 2.0 < sepal_width <= 3.7 ) AND ( 1.2 < petal_length <= 6.1 ) AND ( 0.1 < petal_width <= 1.9 )  THEN target = Iris-virginica
+Train Accuracy: 0.93 | Test Accuracy: 0.92
