@@ -1,5 +1,3 @@
-### Machine Learning HW4 - Genetic Algorithm 
-
 Package requirememt: `numpy` 
 
 #### Step to run the program:  
